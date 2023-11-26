@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Cardápio de restaurante fictício
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Objetivo
 
-In the project directory, you can run:
+O objetivo deste projeto foi criar uma aplicação web inicialmente utilizando React e CSS, e posteriormente adicionando Next.js. A aplicação exibe um cardápio de um restaurante, permitindo aos usuários filtrar por categorias, realizar buscas por pratos e visualizar informações detalhadas de cada item do cardápio.
 
-### `npm start`
+## Estrutura do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A estrutura do projeto está organizada da seguinte forma:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `src`: Contém o código-fonte da aplicação.
+  - `assets`: Armazena recursos da aplicação, como imagens.
+  - `componentes`: Contém componentes reutilizáveis, como `Home`, `Categorias`, `CampoDeBusca` e `ListaCards`.
+  - `data-produtos.js`: Arquivo contendo dados fictícios sobre os produtos do cardápio.
+  - `servico.js`: Arquivo com funções de serviço, como filtrar categorias e buscar pratos.
+  - `App.js`: Componente principal que compõe a aplicação.
+  - `index.js`: Arquivo principal para renderizar a aplicação.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/): Biblioteca JavaScript para construção de interfaces de usuário.
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): Linguagem de estilização.
+- [Next.js](https://nextjs.org/): Framework React para desenvolvimento web.
 
-### `npm run build`
+## Como Usar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório.
+2. Instale as dependências usando `npm install`.
+3. Execute a aplicação com `npm start`.
+4. Acesse a aplicação em [http://localhost:3000](http://localhost:3000).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Filtrar por Categorias**: Os usuários podem filtrar os pratos do cardápio por categorias clicando nos botões de categorias.
 
-### `npm run eject`
+- **Busca por Pratos**: Uma barra de pesquisa permite aos usuários buscar pratos pelo nome.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Exibição de Cardápio**: O cardápio é exibido na seção principal, mostrando informações sobre cada prato.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
