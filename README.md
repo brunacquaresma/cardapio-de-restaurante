@@ -39,6 +39,6 @@ A estrutura do projeto está organizada da seguinte forma:
 
 - **Exibição de Cardápio**: O cardápio é exibido na seção principal, mostrando informações sobre cada prato.
 
-## Licença
+## Autora
 
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto foi criado por Brunä Gomes, com base nas informações fornecidas pela plataforma de estudos DevMedia.
