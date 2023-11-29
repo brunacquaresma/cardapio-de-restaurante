@@ -41,4 +41,4 @@ A estrutura do projeto está organizada da seguinte forma:
 
 ## Autora
 
-Este projeto foi criado por Brunä Gomes, com base nas informações fornecidas pela plataforma de estudos DevMedia.
+Este projeto foi criado por Brunä Gomes, com base nas informações apresentadas pela plataforma de estudos DevMedia.
